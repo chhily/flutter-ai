@@ -49,9 +49,9 @@ class MyApp extends StatelessWidget {
             statusBarBrightness: Brightness.light,
           ),
         ),
-        cardColor: AppColors.secondary,
+        cardColor: AppColors.primary,
         cardTheme: CardTheme(
-          color: AppColors.secondary,
+          color: AppColors.tertiary,
           margin: EdgeInsets.zero,
           elevation: 0,
           surfaceTintColor: AppColors.secondary,
