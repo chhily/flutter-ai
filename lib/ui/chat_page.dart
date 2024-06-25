@@ -146,6 +146,13 @@ class _AIChatPageState extends ConsumerState<AIChatPage> {
                       decoration: inputDecoration.copyWith(
                         hintText: 'Type your message...',
                         hintStyle: appTextStyle,
+                        prefixIcon: IconButton(
+                          onPressed: () {},
+                          icon: const Icon(
+                            Icons.insert_photo_rounded,
+                            color: AppColors.white,
+                          ),
+                        ),
                         suffixIcon: IconButton(
                           icon: const Icon(
                             Icons.send,
